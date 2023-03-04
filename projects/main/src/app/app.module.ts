@@ -15,7 +15,6 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    CommonModule,
     AppRoutingModule
   ],
   providers: [],

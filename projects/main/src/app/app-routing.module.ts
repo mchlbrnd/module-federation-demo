@@ -11,7 +11,7 @@ const routes: Routes = [
   {
     path: 'blog',
     loadChildren: () => import('blog/Module')
-      .then(m => m.AppModule)
+      .then(m => m.BlogModule)
   },
   {
     path: '**',
